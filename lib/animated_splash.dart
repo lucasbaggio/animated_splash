@@ -89,6 +89,6 @@ class _AnimatedSplashState extends State<AnimatedSplash>
             opacity: _animation,
             child: Center(
                 child:
-                    SizedBox(height: 700.0, child: Image.asset(_imagePath)))));
+                    Image.asset(_imagePath, width: 400, height:300);
   }
 }
